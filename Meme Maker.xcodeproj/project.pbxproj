@@ -16,6 +16,7 @@
 		7E8D7DF72B02817A00196833 /* Meme_MakerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8D7DF62B02817A00196833 /* Meme_MakerTests.swift */; };
 		7E8D7E012B02817A00196833 /* Meme_MakerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8D7E002B02817A00196833 /* Meme_MakerUITests.swift */; };
 		7E8D7E032B02817A00196833 /* Meme_MakerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8D7E022B02817A00196833 /* Meme_MakerUITestsLaunchTests.swift */; };
+		7E8D7E102B02876300196833 /* Struct and Classes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8D7E0F2B02876300196833 /* Struct and Classes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		7E8D7DFC2B02817A00196833 /* Meme MakerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Meme MakerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E8D7E002B02817A00196833 /* Meme_MakerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meme_MakerUITests.swift; sourceTree = "<group>"; };
 		7E8D7E022B02817A00196833 /* Meme_MakerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meme_MakerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7E8D7E0F2B02876300196833 /* Struct and Classes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Struct and Classes.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				7E8D7DDF2B02817500196833 /* AppDelegate.swift */,
 				7E8D7DE12B02817500196833 /* SceneDelegate.swift */,
 				7E8D7DE32B02817500196833 /* ViewController.swift */,
+				7E8D7E0F2B02876300196833 /* Struct and Classes.swift */,
 				7E8D7DE52B02817500196833 /* Main.storyboard */,
 				7E8D7DE82B02817A00196833 /* Assets.xcassets */,
 				7E8D7DEA2B02817A00196833 /* LaunchScreen.storyboard */,
@@ -259,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7E8D7DE42B02817500196833 /* ViewController.swift in Sources */,
+				7E8D7E102B02876300196833 /* Struct and Classes.swift in Sources */,
 				7E8D7DE02B02817500196833 /* AppDelegate.swift in Sources */,
 				7E8D7DE22B02817500196833 /* SceneDelegate.swift in Sources */,
 			);
