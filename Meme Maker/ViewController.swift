@@ -27,15 +27,27 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         topSegmentedControl.removeAllSegments()
-        
+        bottomSegmentedControl.removeAllSegments()
         for choice in topArray{
             topSegmentedControl.insertSegment(withTitle: choice.emoji, at: topArray.count, animated: false)
         }
+        
+        for choice in bottomArray{
+            bottomSegmentedControl.insertSegment(withTitle: choice.emoji, at: bottomArray.count, animated: false)
+        }
+        
+        topSegmentedControl.selectedSegmentIndex = 0
+        bottomSegmentedControl.selectedSegmentIndex = 0
     
     }
     
     @IBAction func changeOption(_ sender: Any) {
-        topLabel.text =       topArray[topSegmentedControl.selectedSegmentIndex].caption
+        topLabel.text = topArray[topSegmentedControl.selectedSegmentIndex].caption
+        
+        bottomLabel.text =
+        bottomArray[bottomSegmentedControl.selectedSegmentIndex].caption
+        
+        
     }
     
 
